@@ -1,6 +1,6 @@
 {
 	"name": "sharpcodes19-fetch",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "simple typed fetch",
 	"private": false,
 	"keywords": ["typescript", "fetch"],
