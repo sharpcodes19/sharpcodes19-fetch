@@ -3,10 +3,8 @@
   "workspaces": {
     "": {
       "name": "sharpcodes19-fetch",
-      "dependencies": {
-        "axios": "latest",
-      },
       "devDependencies": {
+        "axios": "*",
         "typescript": "^5",
       },
     },

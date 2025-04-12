@@ -8,6 +8,7 @@
 	"types": "./dist/index.d.ts",
 	"files": ["dist"],
 	"devDependencies": {
+		"axios": "*",
 		"typescript": "^5"
 	},
 	"scripts": {
@@ -15,8 +16,5 @@
 	},
 	"publishConfig": {
 		"access": "public"
-	},
-	"dependencies": {
-		"axios": "latest"
 	}
 }
