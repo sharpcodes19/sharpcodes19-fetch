@@ -13,14 +13,6 @@
 	"scripts": {
 		"build": "rm -rf build && bun build src/index.ts --outdir dist --minify"
 	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/sharpcodes19/sharpcodes19-fetch.git"
-	},
-	"bugs": {
-		"url": "https://github.com/sharpcodes19/sharpcodes19-fetch/issues"
-	},
-	"homepage": "https://github.com/sharpcodes19/sharpcodes19-fetch#readme",
 	"publishConfig": {
 		"access": "public"
 	},
