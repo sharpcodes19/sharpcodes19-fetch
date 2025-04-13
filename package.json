@@ -1,20 +1,22 @@
 {
 	"name": "sharpcodes19-fetch",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "simple typed fetch",
 	"private": false,
 	"keywords": ["typescript", "fetch"],
+	"license": "MIT",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"files": ["dist"],
+	"publishConfig": {
+		"access": "public"
+	},
 	"devDependencies": {
 		"axios": "*",
 		"typescript": "^5"
 	},
 	"scripts": {
-		"build": "rm -rf build && bun build src/index.ts --outdir dist --minify"
-	},
-	"publishConfig": {
-		"access": "public"
+		"build": "tsc",
+		"prepublish": "rm -rf dist && yarn build"
 	}
 }
